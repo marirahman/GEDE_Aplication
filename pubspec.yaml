@@ -1,0 +1,52 @@
+name: GEDE
+description: "A new Flutter project."
+
+# Untuk membuat proyek ini tidak dipublikasikan ke pub.dev
+publish_to: 'none'  # Hapus jika Anda ingin mempublikasikan ke pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0" # Rentang versi untuk kompatibilitas lebih luas
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Ikon untuk aplikasi berbasis Cupertino
+  cupertino_icons: ^1.0.8
+
+  # Library untuk animasi Lottie
+  lottie: ^3.0.0
+
+  # HTTP client untuk melakukan request
+  http: ^0.13.5
+
+  # Library untuk menambahkan peta
+  flutter_map: ^3.1.0
+
+  # Library untuk menangani koordinat
+  latlong2: ^0.8.1
+  url_launcher: ^6.0.12
+  dependencies:
+  flutter_native_splash: ^2.3.0 # (opsional untuk membuat splash screen otomatis)
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linting tools untuk standar kode Flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/download.jpg
+    - lib/assets/cianjur.jpg
+    - lib/assets/gngede.jpg
+    - lib/assets/logoml.jpg
+    - lib/assets/Laksa.jpg
+    - lib/assets/putri.jpg
+    - lib/assets/selabintara.jpg
+    - lib/assets/cibodas.jpg
